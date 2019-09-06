@@ -1,5 +1,5 @@
 import { Command } from '@oclif/command'
-import * as jest from 'jest'
+import jest from 'jest'
 
 export default class Test extends Command {
   static description = 'describe the command here'

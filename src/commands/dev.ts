@@ -1,6 +1,6 @@
 import { Command } from '@oclif/command'
 import { join } from 'path'
-import * as spawn from 'cross-spawn'
+import spawn from 'cross-spawn'
 import { getCommand } from '../utils/getCommand'
 
 export default class Dev extends Command {

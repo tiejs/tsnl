@@ -1,5 +1,5 @@
-import * as spawn from 'cross-spawn'
-import * as path from 'path'
+import spawn from 'cross-spawn'
+import path from 'path'
 
 const deps = ['typescript@v3.4.5', 'tsnl@latest']
 

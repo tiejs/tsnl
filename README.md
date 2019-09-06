@@ -32,6 +32,7 @@ USAGE
 * [`tsnl create [LIBNAME]`](#tsnl-create-libname)
 * [`tsnl dev`](#tsnl-dev)
 * [`tsnl help [COMMAND]`](#tsnl-help-command)
+* [`tsnl test`](#tsnl-test)
 
 ## `tsnl build`
 
@@ -94,4 +95,19 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.1/src/commands/help.ts)_
+
+## `tsnl test`
+
+describe the command here
+
+```
+USAGE
+  $ tsnl test
+
+EXAMPLE
+  $ tsnl hello
+  hello world from ./src/hello.ts!
+```
+
+_See code: [src/commands/test.ts](https://github.com/forsigner/tsnl/blob/v0.0.1/src/commands/test.ts)_
 <!-- commandsstop -->

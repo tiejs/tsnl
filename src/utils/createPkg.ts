@@ -1,6 +1,5 @@
-import * as spawn from 'cross-spawn'
-import * as path from 'path'
-import * as fs from 'fs-extra'
+import path from 'path'
+import fs from 'fs-extra'
 import { pkg } from '../utils/pkg'
 
 export async function createPkg(name: string, projectPath: string) {
