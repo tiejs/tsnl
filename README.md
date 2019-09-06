@@ -19,7 +19,7 @@ $ npm install -g tsnl
 $ tsnl COMMAND
 running command...
 $ tsnl (-v|--version|version)
-tsnl/0.0.0 darwin-x64 node-v10.16.3
+tsnl/0.0.1 darwin-x64 node-v10.16.3
 $ tsnl --help [COMMAND]
 USAGE
   $ tsnl COMMAND
@@ -46,7 +46,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/build.ts](https://github.com/forsigner/tsnl/blob/v0.0.0/src/commands/build.ts)_
+_See code: [src/commands/build.ts](https://github.com/forsigner/tsnl/blob/v0.0.1/src/commands/build.ts)_
 
 ## `tsnl create [LIBNAME]`
 
@@ -61,7 +61,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/create.ts](https://github.com/forsigner/tsnl/blob/v0.0.0/src/commands/create.ts)_
+_See code: [src/commands/create.ts](https://github.com/forsigner/tsnl/blob/v0.0.1/src/commands/create.ts)_
 
 ## `tsnl dev`
 
@@ -76,7 +76,7 @@ EXAMPLE
   hello world from ./src/hello.ts!
 ```
 
-_See code: [src/commands/dev.ts](https://github.com/forsigner/tsnl/blob/v0.0.0/src/commands/dev.ts)_
+_See code: [src/commands/dev.ts](https://github.com/forsigner/tsnl/blob/v0.0.1/src/commands/dev.ts)_
 
 ## `tsnl help [COMMAND]`
 

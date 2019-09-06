@@ -3,7 +3,7 @@ import { join } from 'path'
 import * as spawn from 'cross-spawn'
 import { getCommand } from '../utils/getCommand'
 
-export default class Dev extends Command {
+export default class Build extends Command {
   static description = 'describe the command here'
 
   static examples = [
