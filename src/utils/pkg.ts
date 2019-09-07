@@ -1,4 +1,5 @@
 export const pkg: any = {
+  name: 'projectName',
   version: '0.0.0',
   description: '',
   main: 'dist/index.js',
@@ -19,6 +20,6 @@ export const pkg: any = {
     trailingComma: 'all',
     printWidth: 100,
   },
+  files: ['dist'],
   devDependencies: {},
-  files: ['dist/**/*.js', 'dist/**/*.d.ts'],
 }
