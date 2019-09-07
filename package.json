@@ -1,6 +1,6 @@
 {
   "name": "tsnl",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "author": "forsigner @forsigner",
   "bin": {
     "tsnl": "./bin/run"

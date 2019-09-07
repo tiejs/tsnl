@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/forsigner/tsnl/compare/v0.0.5...v0.0.6) (2019-09-07)
+
+
+### Bug Fixes
+
+* build readme auto ([b30f60c](https://github.com/forsigner/tsnl/commit/b30f60c))
+
 ### [0.0.5](https://github.com/forsigner/tsnl/compare/v0.0.4...v0.0.5) (2019-09-07)
 
 
