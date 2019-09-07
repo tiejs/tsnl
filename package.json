@@ -1,6 +1,6 @@
 {
   "name": "tsnl",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "forsigner @forsigner",
   "bin": {
     "tsnl": "./bin/run"
@@ -26,7 +26,6 @@
     "@types/eslint": "^6.1.1",
     "@types/fs-extra": "^8.0.0",
     "@types/node": "^12.7.4",
-    "standard-version": "^7.0.0",
     "ts-node": "^8.3.0",
     "typescript": "^3.6.2"
   },
@@ -58,8 +57,7 @@
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest",
     "build": "rm -rf lib && tsc -b && oclif-dev manifest && npm run version",
     "test": "echo NO TESTS",
-    "version": "oclif-dev readme && git add README.md",
-    "release": "standard-version"
+    "version": "oclif-dev readme && git add README.md"
   },
   "types": "lib/index.d.ts"
 }
