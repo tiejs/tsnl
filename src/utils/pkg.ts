@@ -6,6 +6,8 @@ export const pkg: any = {
     dev: 'tsnl dev',
     build: 'tsnl build',
     test: 'tsnl test',
+    lint: 'tsnl lint',
+    'lint:fix': 'tsnt lint --fix',
   },
   eslintConfig: {
     extends: 'leaf-app',

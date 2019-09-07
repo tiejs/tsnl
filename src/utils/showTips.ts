@@ -1,8 +1,10 @@
 import chalk from 'chalk'
+const { green } = chalk
+
 
 export function showTips(root: string, appName: string) {
   console.log()
-  console.log(`Success! Created ${appName} at ${root}`)
+  console.log(`Success! Created ${green(appName)} at ${green(root)}`)
   console.log('Inside that directory, you can run several commands:')
   console.log()
   console.log(chalk.cyan(`  npm run dev`))

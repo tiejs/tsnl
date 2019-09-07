@@ -22,6 +22,7 @@
   "devDependencies": {
     "@oclif/dev-cli": "^1.22.2",
     "@types/cross-spawn": "^6.0.0",
+    "@types/eslint": "^6.1.1",
     "@types/fs-extra": "^8.0.0",
     "@types/node": "^12.7.4",
     "globby": "^10.0.1",
@@ -55,10 +56,9 @@
   "repository": "forsigner/tsnl",
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
-    "prepack": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
-    "build": "rm -rf lib && tsc -b && oclif-dev manifest && oclif-dev readme",
+    "prepack": "rm -rf lib && tsc -b",
+    "build": "rm -rf lib && tsc -b && oclif-dev manifest",
     "test": "echo NO TESTS",
-    "version": "oclif-dev readme && git add README.md",
     "release": "standard-version"
   },
   "types": "lib/index.d.ts"
