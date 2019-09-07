@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/forsigner/tsnl/compare/v0.0.4...v0.0.5) (2019-09-07)
+
+
+### Bug Fixes
+
+* install grobby ([ddf41da](https://github.com/forsigner/tsnl/commit/ddf41da))
+
+
+### Features
+
+* update tsconfig ([ff316da](https://github.com/forsigner/tsnl/commit/ff316da))
+
 ### [0.0.4](https://github.com/forsigner/tsnl/compare/v0.0.3...v0.0.4) (2019-09-07)
 
 
