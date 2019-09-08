@@ -18,7 +18,7 @@ export const pkg: any = {
     tabWidth: 2,
     singleQuote: true,
     trailingComma: 'all',
-    printWidth: 100,
+    printWidth: 80,
   },
   files: ['dist'],
   devDependencies: {},
