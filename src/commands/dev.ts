@@ -1,6 +1,7 @@
 import { Command } from '@oclif/command'
 import { join } from 'path'
 import spawn from 'cross-spawn'
+import { removeSync } from 'fs-extra'
 import { getCommand } from '../utils/getCommand'
 
 export default class Dev extends Command {
@@ -17,6 +18,9 @@ hello world from ./src/hello.ts!
     const command = getCommand()
     const tsconfigPath = join(cwd, 'tsconfig.json')
     const startArgs: string[] = ['--project', tsconfigPath, '--watch']
+
+    removeSync(join(cwd, 'dist'))
+
     const child = spawn(command, startArgs, { stdio: 'inherit' })
 
     child.on('close', code => {

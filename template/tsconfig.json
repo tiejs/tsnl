@@ -2,9 +2,9 @@
   "compileOnSave": true,
   "compilerOptions": {
     "outDir": "./dist",
-    "target": "es5",
+    "target": "es2015",
     "module": "commonjs",
-    "lib": ["dom", "esnext"],
+    "lib": ["esnext"],
     "declaration": true,
     "strict": true,
     "noImplicitAny": false,
