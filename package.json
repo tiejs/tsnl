@@ -5,7 +5,16 @@
   "bin": {
     "tsnl": "./bin/run"
   },
-  "bugs": "https://github.com/forsigner/tsnl/issues",
+  "eslintConfig": {
+    "extends": "leaf-app"
+  },
+  "prettier": {
+    "semi": false,
+    "tabWidth": 2,
+    "singleQuote": true,
+    "trailingComma": "all",
+    "printWidth": 100
+  },
   "dependencies": {
     "@oclif/command": "^1.5.19",
     "@oclif/config": "^1.13.3",

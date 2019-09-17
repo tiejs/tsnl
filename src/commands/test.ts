@@ -27,6 +27,6 @@ hello world from ./src/hello.ts!
       }),
     ]
 
-    jest.run(config)
+    await jest.run(config)
   }
 }

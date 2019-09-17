@@ -25,10 +25,7 @@ hello world from ./src/hello.ts!
     const { args } = this.parse(Create)
     const { libName } = args
     if (!libName) {
-      return this.log(
-        yellow('required project name, eg: '),
-        green('create-leaf-app myapp'),
-      )
+      return this.log(yellow('required project name, eg: '), green('create-leaf-app myapp'))
     }
     const projectPath = path.resolve(libName)
 
