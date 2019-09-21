@@ -1,129 +1,56 @@
-tsnl
-====
-
-
+# tsnl
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/tsnl.svg)](https://npmjs.org/package/tsnl)
 [![Downloads/week](https://img.shields.io/npm/dw/tsnl.svg)](https://npmjs.org/package/tsnl)
 [![License](https://img.shields.io/npm/l/tsnl.svg)](https://github.com/forsigner/tsnl/blob/master/package.json)
 
+{ TypeScript Node.js library } development with zero-config CLI.
+
 <!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
-# Usage
-<!-- usage -->
+
+- [Quick Start](#quick-start)
+- [Commands](#commands)
+  <!-- tocstop -->
+
+## Quick Start
+
+<!-- quick-start -->
+
 ```sh-session
-$ npm install -g tsnl
-$ tsnl COMMAND
-running command...
-$ tsnl (-v|--version|version)
-tsnl/0.0.8 darwin-x64 node-v10.16.3
-$ tsnl --help [COMMAND]
-USAGE
-  $ tsnl COMMAND
-...
+npx tsnl create mylib
+cd mylib
+npm run dev
 ```
-<!-- usagestop -->
-# Commands
+
+<!-- quick-startstop -->
+
+## Commands
+
 <!-- commands -->
-* [`tsnl build`](#tsnl-build)
-* [`tsnl create [LIBNAME]`](#tsnl-create-libname)
-* [`tsnl dev`](#tsnl-dev)
-* [`tsnl help [COMMAND]`](#tsnl-help-command)
-* [`tsnl lint`](#tsnl-lint)
-* [`tsnl test`](#tsnl-test)
 
-## `tsnl build`
+- [`tsnl create [LIBNAME]`](#tsnl-create-libname)
+- [`tsnl dev`](#tsnl-dev)
+- [`tsnl build`](#tsnl-build)
+- [`tsnl test`](#tsnl-test)
+- [`tsnl lint`](#tsnl-lint)
 
-describe the command here
+### `tsnl create [LIBNAME]`
 
-```
-USAGE
-  $ tsnl build
+Init a library project with `tsnl`.
 
-EXAMPLE
-  $ tsnl hello
-  hello world from ./src/hello.ts!
-```
+### `tsnl dev`
 
-_See code: [src/commands/build.ts](https://github.com/forsigner/tsnl/blob/v0.0.8/src/commands/build.ts)_
+Run the project in development mode.
 
-## `tsnl create [LIBNAME]`
+### `tsnl build`
 
-describe the command here
+Build the project to dist for production.
 
-```
-USAGE
-  $ tsnl create [LIBNAME]
+### `tsnl lint`
 
-EXAMPLE
-  $ tsnl hello
-  hello world from ./src/hello.ts!
-```
+Lint code with eslint.
 
-_See code: [src/commands/create.ts](https://github.com/forsigner/tsnl/blob/v0.0.8/src/commands/create.ts)_
+### `tsnl test`
 
-## `tsnl dev`
-
-describe the command here
-
-```
-USAGE
-  $ tsnl dev
-
-EXAMPLE
-  $ tsnl hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/dev.ts](https://github.com/forsigner/tsnl/blob/v0.0.8/src/commands/dev.ts)_
-
-## `tsnl help [COMMAND]`
-
-display help for tsnl
-
-```
-USAGE
-  $ tsnl help [COMMAND]
-
-ARGUMENTS
-  COMMAND  command to show help for
-
-OPTIONS
-  --all  see all commands in CLI
-```
-
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.1/src/commands/help.ts)_
-
-## `tsnl lint`
-
-describe the command here
-
-```
-USAGE
-  $ tsnl lint
-
-EXAMPLE
-  $ tsnl hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/lint.ts](https://github.com/forsigner/tsnl/blob/v0.0.8/src/commands/lint.ts)_
-
-## `tsnl test`
-
-describe the command here
-
-```
-USAGE
-  $ tsnl test
-
-EXAMPLE
-  $ tsnl hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/test.ts](https://github.com/forsigner/tsnl/blob/v0.0.8/src/commands/test.ts)_
-<!-- commandsstop -->
+Run unitest with jest.

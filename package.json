@@ -1,7 +1,7 @@
 {
   "name": "tsnl",
   "version": "0.0.8",
-  "author": "forsigner @forsigner",
+  "author": "@forsigner",
   "bin": {
     "tsnl": "./bin/run"
   },
@@ -26,7 +26,7 @@
     "globby": "^10.0.1",
     "jest": "^24.9.0",
     "prettier": "^1.18.2",
-    "ts-jest": "^24.0.2",
+    "ts-jest": "^24.1.0",
     "tslib": "^1.10.0"
   },
   "devDependencies": {
@@ -34,10 +34,10 @@
     "@types/cross-spawn": "^6.0.0",
     "@types/eslint": "^6.1.1",
     "@types/fs-extra": "^8.0.0",
-    "@types/node": "^12.7.4",
+    "@types/node": "^12.7.5",
     "standard-version": "^7.0.0",
-    "ts-node": "^8.3.0",
-    "typescript": "^3.6.2"
+    "ts-node": "^8.4.1",
+    "typescript": "^3.6.3"
   },
   "engines": {
     "node": ">=8.0.0"
@@ -49,7 +49,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/forsigner/tsnl",
+  "homepage": "https://github.com/leaf-team/tsnl",
   "keywords": [
     "oclif"
   ],
@@ -62,7 +62,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "forsigner/tsnl",
+  "repository": "leaf-team/tsnl",
   "scripts": {
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest",
     "build": "rm -rf lib && tsc -b && oclif-dev manifest && npm run version",
