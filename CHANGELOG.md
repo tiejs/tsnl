@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/leaf-team/tsnl/compare/v0.0.7...v1.0.0) (2019-09-21)
+
+
+### Features
+
+* improve common desc ([e86668f](https://github.com/leaf-team/tsnl/commit/e86668f))
+* rm dist when build ([1412763](https://github.com/leaf-team/tsnl/commit/1412763))
+
 ### [0.0.8](https://github.com/forsigner/tsnl/compare/v0.0.7...v0.0.8) (2019-09-10)
 
 
