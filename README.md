@@ -5,7 +5,7 @@
 [![Downloads/week](https://img.shields.io/npm/dw/tsnl.svg)](https://npmjs.org/package/tsnl)
 [![License](https://img.shields.io/npm/l/tsnl.svg)](https://github.com/forsigner/tsnl/blob/master/package.json)
 
-{ TypeScript Node.js library } development with zero-config CLI.
+Create { TypeScript Node.js library }  with zero-config CLI.
 
 <!-- toc -->
 
@@ -37,7 +37,7 @@ npm run dev
 
 ### `tsnl create [LIBNAME]`
 
-Init a library project with `tsnl`.
+Init a library project.
 
 ### `tsnl dev`
 
