@@ -5,7 +5,7 @@ import { removeSync } from 'fs-extra'
 import { getCommand } from '../utils/getCommand'
 
 export default class Build extends Command {
-  static description = 'Build the project to dist for production'
+  static description = 'Build the project to dist'
 
   static examples = [`$ tsnl build`]
 

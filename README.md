@@ -5,7 +5,7 @@
 [![Downloads/week](https://img.shields.io/npm/dw/tsnl.svg)](https://npmjs.org/package/tsnl)
 [![License](https://img.shields.io/npm/l/tsnl.svg)](https://github.com/forsigner/tsnl/blob/master/package.json)
 
-Create { TypeScript Node.js library }  with zero-config CLI.
+Create { TypeScript Node.js library } with zero-config CLI.
 
 <!-- toc -->
 
@@ -51,6 +51,15 @@ Build the project to dist for production.
 
 Lint code with eslint.
 
+#### params
+
+- `tsnl lint --fix`
+
 ### `tsnl test`
 
 Run unitest with jest.
+
+#### params
+
+- `tsnl test --watch`
+- `tsnl test --coverage`

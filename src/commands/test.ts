@@ -6,6 +6,8 @@ export default class Test extends Command {
 
   static examples = [
     `$ tsnl test
+$ tsnl test --watch
+$ tsnl test --coverage
 `,
   ]
 
