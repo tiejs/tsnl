@@ -4,11 +4,11 @@ import { readJSON, existsSync } from 'fs-extra'
 import { join } from 'path'
 
 export default class Lint extends Command {
-  static description = 'describe the command here'
+  static description = 'Lint code with eslint'
 
   static examples = [
-    `$ tsnl hello
-hello world from ./src/hello.ts!
+    `$ tsnl lint
+$ tsnl lint --fix
 `,
   ]
 

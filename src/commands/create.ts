@@ -9,13 +9,9 @@ import { showTips } from '../utils/showTips'
 const { green, yellow } = chalk
 
 export default class Create extends Command {
-  static description = 'describe the command here'
+  static description = 'Init a library project'
 
-  static examples = [
-    `$ tsnl hello
-hello world from ./src/hello.ts!
-`,
-  ]
+  static examples = [`$ tsnl create mylib`]
 
   static args = [{ name: 'libName' }]
 

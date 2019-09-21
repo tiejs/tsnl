@@ -5,13 +5,9 @@ import { removeSync } from 'fs-extra'
 import { getCommand } from '../utils/getCommand'
 
 export default class Build extends Command {
-  static description = 'describe the command here'
+  static description = 'Build the project to dist for production'
 
-  static examples = [
-    `$ tsnl hello
-hello world from ./src/hello.ts!
-`,
-  ]
+  static examples = [`$ tsnl build`]
 
   async run() {
     const cwd = process.cwd()
@@ -25,7 +21,6 @@ hello world from ./src/hello.ts!
 
     child.on('close', code => {
       if (code !== 0) {
-        // TODO: handle ERROR
         console.log('Error~')
       }
     })

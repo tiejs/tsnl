@@ -2,11 +2,10 @@ import { Command } from '@oclif/command'
 import jest from 'jest'
 
 export default class Test extends Command {
-  static description = 'describe the command here'
+  static description = 'Run unitest with jest'
 
   static examples = [
-    `$ tsnl hello
-hello world from ./src/hello.ts!
+    `$ tsnl test
 `,
   ]
 
