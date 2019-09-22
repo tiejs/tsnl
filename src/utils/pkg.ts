@@ -7,6 +7,8 @@ export const pkg: any = {
     dev: 'tsnl dev',
     build: 'tsnl build',
     test: 'tsnl test',
+    'test:watch': 'tsnl test --watch',
+    'test:cov': 'tsnl test --coverage',
     lint: 'tsnl lint',
     'lint:fix': 'tsnt lint --fix',
   },
