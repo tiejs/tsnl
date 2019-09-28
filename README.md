@@ -18,7 +18,7 @@ Create { TypeScript Node.js library } with zero-config CLI.
 <!-- quick-start -->
 
 ```sh-session
-npx tsnl create mylib
+npx tsnl new mylib
 cd mylib
 npm run dev
 ```
@@ -29,13 +29,13 @@ npm run dev
 
 <!-- commands -->
 
-- [`tsnl create [LIBNAME]`](#tsnl-create-libname)
+- [`tsnl new [LIBNAME]`](#tsnl-new-libname)
 - [`tsnl dev`](#tsnl-dev)
 - [`tsnl build`](#tsnl-build)
 - [`tsnl test`](#tsnl-test)
 - [`tsnl lint`](#tsnl-lint)
 
-### `tsnl create [LIBNAME]`
+### `tsnl new [LIBNAME]`
 
 Init a library project.
 
