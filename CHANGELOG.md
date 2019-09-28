@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/leaf-team/tsnl/compare/v1.0.0...v1.1.0) (2019-09-28)
+
+
+### Features
+
+* create -> new ([e633ec0](https://github.com/leaf-team/tsnl/commit/e633ec0))
+* update pkg.ts ([809a112](https://github.com/leaf-team/tsnl/commit/809a112))
+* update tsconfig.json ([fde53c4](https://github.com/leaf-team/tsnl/commit/fde53c4))
+
 ## [1.0.0](https://github.com/leaf-team/tsnl/compare/v0.0.7...v1.0.0) (2019-09-21)
 
 
