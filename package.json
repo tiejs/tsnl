@@ -21,7 +21,7 @@
     "@oclif/plugin-help": "^2.2.1",
     "@types/jest": "^24.0.18",
     "cross-spawn": "^7.0.0",
-    "eslint-config-leaf-app": "0.0.3",
+    "eslint-config-tie-app": "0.0.1",
     "fs-extra": "^8.1.0",
     "globby": "^10.0.1",
     "jest": "^24.9.0",
