@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.2.0](https://github.com/leaf-team/tsnl/compare/v1.0.0...v1.2.0) (2019-09-29)
+
+
+### Features
+
+* create -> new ([e633ec0](https://github.com/leaf-team/tsnl/commit/e633ec0))
+* update pkg.ts ([809a112](https://github.com/leaf-team/tsnl/commit/809a112))
+* update tsconfig.json ([fde53c4](https://github.com/leaf-team/tsnl/commit/fde53c4))
+* use eslint-config-tie-app ([3801297](https://github.com/leaf-team/tsnl/commit/3801297))
+
 ## [1.1.0](https://github.com/leaf-team/tsnl/compare/v1.0.0...v1.1.0) (2019-09-28)
 
 
