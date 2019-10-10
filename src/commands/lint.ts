@@ -21,7 +21,7 @@ $ tsnl lint --fix
     const baseConfig = pkg.eslintConfig
       ? pkg.eslintConfig
       : {
-          extends: 'leaf-app',
+          extends: 'tie-app',
         }
 
     const config = {

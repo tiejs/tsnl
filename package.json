@@ -6,7 +6,7 @@
     "tsnl": "./bin/run"
   },
   "eslintConfig": {
-    "extends": "leaf-app"
+    "extends": "tie-app"
   },
   "prettier": {
     "semi": false,
@@ -21,6 +21,7 @@
     "@oclif/plugin-help": "^2.2.1",
     "@types/jest": "^24.0.18",
     "cross-spawn": "^7.0.0",
+    "eslint": "^6.5.1",
     "eslint-config-tie-app": "0.0.1",
     "fs-extra": "^8.1.0",
     "globby": "^10.0.1",
@@ -49,7 +50,7 @@
     "/npm-shrinkwrap.json",
     "/oclif.manifest.json"
   ],
-  "homepage": "https://github.com/leaf-team/tsnl",
+  "homepage": "https://github.com/tie-team/tsnl",
   "keywords": [
     "oclif"
   ],
@@ -62,7 +63,7 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "leaf-team/tsnl",
+  "repository": "tie-team/tsnl",
   "scripts": {
     "prepack": "rm -rf lib && tsc -b && oclif-dev manifest",
     "build": "rm -rf lib && tsc -b && oclif-dev manifest",

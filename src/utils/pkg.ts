@@ -13,7 +13,7 @@ export const pkg: any = {
     'lint:fix': 'tsnt lint --fix',
   },
   eslintConfig: {
-    extends: 'leaf-app',
+    extends: 'tie-app',
   },
   prettier: {
     semi: false,
