@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/tie-team/tsnl/compare/v1.2.1...v1.3.0) (2019-11-28)
+
+
+### Features
+
+* support clean js file ([62c6e0c](https://github.com/tie-team/tsnl/commit/62c6e0c))
+
 ### [1.2.1](https://github.com/tie-team/tsnl/compare/v1.2.0...v1.2.1) (2019-10-10)
 
 ## [1.2.0](https://github.com/leaf-team/tsnl/compare/v1.0.0...v1.2.0) (2019-09-29)
